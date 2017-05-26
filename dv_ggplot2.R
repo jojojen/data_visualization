@@ -1,3 +1,10 @@
+# R version 3.3.2 (2016-10-31)
+# Platform: x86_64-apple-darwin13.4.0 (64-bit)
+# Running under: macOS Sierra 10.12.2
+# 
+# locale:
+#   [1] zh_TW.UTF-8/zh_TW.UTF-8/zh_TW.UTF-8/C/zh_TW.UTF-8/zh_TW.UTF-8
+
 # install packages
 pkgs.needs <- c("ggplot2", "ggsci", "dplyr")
 pkgs.installed <- installed.packages()[,"Package"] 
